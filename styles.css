@@ -16,3 +16,27 @@ body {
 img {
   width: 100px;
 }
+
+#hero {
+  background-image: url('images/klang_river.webp');
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.description {
+  color: white;
+  background-color: #1d3557;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+.description {
+  background-color: #457b9d;
+  padding: 5px 30px;
+}
